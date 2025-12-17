@@ -1,5 +1,4 @@
 import type { Config } from '@docusaurus/types';
-import { themes as prismThemes } from 'prism-react-renderer';
 
 const config: Config = {
   title: 'Physical AI & Humanoid Robotics Textbook',
@@ -9,8 +8,8 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'speckit-ai', // Updated for GitHub Pages
-  projectName: 'speckit', // Updated for GitHub Pages
+  organizationName: 'Raimaqureshi', // Updated for GitHub Pages
+  projectName: 'physical-ai-humanoid-book', // Updated for GitHub Pages
 
   presets: [
     [

@@ -6,7 +6,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Raimaquresh',
+  organizationName: 'Raimaqureshi',
   projectName: 'physical-ai-humanoid-book',
 
   presets: [
