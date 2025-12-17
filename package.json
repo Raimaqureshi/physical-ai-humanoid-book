@@ -1,6 +1,17 @@
 {
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
-    "@docusaurus/preset-classic": "^3.9.2"
-  }
+    "@docusaurus/preset-classic": "^3.9.2",
+    "homepage": "https://Raimaqureshi.github.io/physical-ai-humanoid-book"
+
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "docusaurus deploy --use-ssh",
+  "start": "docusaurus start",
+  "build": "docusaurus build"
+}
 }

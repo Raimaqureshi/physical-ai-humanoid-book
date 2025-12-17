@@ -6,8 +6,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'speckit-ai',
-  projectName: 'speckit',
+  organizationName: 'Raimaquresh',
+  projectName: 'physical-ai-humanoid-book',
 
   presets: [
     [
