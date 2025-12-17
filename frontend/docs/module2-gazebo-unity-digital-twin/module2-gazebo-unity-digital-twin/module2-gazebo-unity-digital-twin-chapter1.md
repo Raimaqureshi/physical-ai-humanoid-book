@@ -1,11 +1,11 @@
 ---
 id: module2-gazebo-unity-digital-twin-chapter1
-title: Introduction to Robotic Simulation: Gazebo
+title: "Introduction to Robotic Simulation: Gazebo"
 module_id: module2-gazebo-unity-digital-twin
 learning_objectives:
-  - Understand the core concepts of Introduction to Robotic Simulation: Gazebo.
-  - Identify key components and their functions related to Introduction to Robotic Simulation: Gazebo.
-keywords: [introduction, to, robotic, simulation:, gazebo, robotics, AI]
+  - "Understand the core concepts of Introduction to Robotic Simulation: Gazebo."
+  - "Identify key components and their functions related to Introduction to Robotic Simulation: Gazebo."
+keywords: ["introduction", "to", "robotic", "simulation", "gazebo", "robotics", "AI"]
 difficulty: intermediate
 estimated_reading_time_minutes: 30
 ---

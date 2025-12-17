@@ -86,7 +86,7 @@ class RAGService:
                 ]
             )
             source_references.append(f"Chapter ID: {query.context_reference}")
-elif query.context_type == "selected_text" and query.context_reference:
+        elif query.context_type == "selected_text" and query.context_reference:
             # For selected_text, the reference might be a chunk ID or a specific text segment identifier.
             # This is a simplification; in a real scenario, you'd search for the specific text chunk.
             context_filter = Filter(

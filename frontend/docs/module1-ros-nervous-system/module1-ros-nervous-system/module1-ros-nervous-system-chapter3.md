@@ -1,11 +1,11 @@
 ---
 id: module1-ros-nervous-system-chapter3
-title: Advanced ROS 2: Actions, Parameters, Transforms
+title: "Advanced ROS 2: Actions, Parameters, Transforms"
 module_id: module1-ros-nervous-system
 learning_objectives:
-  - Understand the core concepts of Advanced ROS 2: Actions, Parameters, Transforms.
-  - Identify key components and their functions related to Advanced ROS 2: Actions, Parameters, Transforms.
-keywords: [advanced, ros, 2:, actions,, parameters,, transforms, robotics, AI]
+  - "Understand the core concepts of Advanced ROS 2: Actions, Parameters, Transforms."
+  - "Identify key components and their functions related to Advanced ROS 2: Actions, Parameters, Transforms."
+keywords: ["advanced", "ros", "2", "actions", "parameters", "transforms", "robotics", "AI"]
 difficulty: intermediate
 estimated_reading_time_minutes: 30
 ---

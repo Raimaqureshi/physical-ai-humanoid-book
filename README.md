@@ -22,33 +22,52 @@ npm start
 This will start the Docusaurus development server.
 
 ### 3. Backend Setup (FastAPI RAG Chatbot)
+
+#### Option A: Using Poetry (Recommended)
 ```bash
 cd backend
-# Create and activate virtual environment
-# Use the appropriate command for your system (e.g., `python -m venv .venv` or `python3 -m venv .venv` or `py -m venv .venv`)
-# The path to your python executable is: C:\Users\HASSAN COMPUTER\AppData\Local\Programs\Python\Python314\python.exe
-# Example:
-"C:\Users\HASSAN COMPUTER\AppData\Local\Programs\Python\Python314\python.exe" -m venv .venv
-# Activate the virtual environment
-# On Windows:
-.venv\Scripts\activate
-# On macOS/Linux:
-source .venv/bin/activate
-
 # Install Poetry (if not already installed)
 pip install poetry
+
+# Create and activate virtual environment (optional but recommended)
+# On Windows:
+python -m venv .venv
+.venv\Scripts\activate
+# On macOS/Linux:
+python3 -m venv .venv
+source .venv/bin/activate
 
 # Install backend dependencies using Poetry
 poetry install
 
 # Create a .env file from the template and fill in your details
 cp .env.template .env
-# Open .env and add your DATABASE_URL, QDRANT_HOST, QDRANT_PORT, OPENAI_API_KEY etc.
+# Open .env and add your OPENAI_API_KEY, QDRANT_HOST, QDRANT_PORT, etc.
 
-# Run database migrations (if any - not yet implemented)
-# python -m alembic upgrade head
-
-# Run the FastAPI application
-poetry run uvicorn app.main:app --reload
+# Run the FastAPI application from backend directory
+poetry run uvicorn main:app --reload
 ```
-This will start the FastAPI development server.
+
+#### Option B: Using pip
+```bash
+cd backend
+# Create and activate virtual environment
+# On Windows:
+python -m venv .venv
+.venv\Scripts\activate
+# On macOS/Linux:
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install backend dependencies using pip
+pip install -r requirements.txt
+
+# Create a .env file from the template and fill in your details
+cp .env.template .env
+# Open .env and add your OPENAI_API_KEY, QDRANT_HOST, QDRANT_PORT, etc.
+
+# Run the FastAPI application from backend directory
+uvicorn main:app --reload
+```
+
+Both options will start the FastAPI development server.

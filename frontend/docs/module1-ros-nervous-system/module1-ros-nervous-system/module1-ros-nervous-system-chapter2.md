@@ -1,11 +1,11 @@
 ---
 id: module1-ros-nervous-system-chapter2
-title: ROS 2 Communication: Nodes, Topics, Services
+title: "ROS 2 Communication: Nodes, Topics, Services"
 module_id: module1-ros-nervous-system
 learning_objectives:
-  - Understand the core concepts of ROS 2 Communication: Nodes, Topics, Services.
-  - Identify key components and their functions related to ROS 2 Communication: Nodes, Topics, Services.
-keywords: [ros, 2, communication:, nodes,, topics,, services, robotics, AI]
+  - "Understand the core concepts of ROS 2 Communication: Nodes, Topics, Services."
+  - "Identify key components and their functions related to ROS 2 Communication: Nodes, Topics, Services."
+keywords: ["ros", "2", "communication", "nodes", "topics", "services", "robotics", "AI"]
 difficulty: intermediate
 estimated_reading_time_minutes: 30
 ---

@@ -1,11 +1,11 @@
 ---
 id: module4-vision-language-action-humanoid-autonomy-chapter3
-title: Action Planning & Execution with LLMs in Robotics
+title: "Action Planning & Execution with LLMs in Robotics"
 module_id: module4-vision-language-action-humanoid-autonomy
 learning_objectives:
-  - Understand the core concepts of Action Planning & Execution with LLMs in Robotics.
-  - Identify key components and their functions related to Action Planning & Execution with LLMs in Robotics.
-keywords: [action, planning, &, execution, with, llms, in, robotics, robotics, AI]
+  - "Understand the core concepts of Action Planning & Execution with LLMs in Robotics."
+  - "Identify key components and their functions related to Action Planning & Execution with LLMs in Robotics."
+keywords: ["action", "planning", "&", "execution", "with", "llms", "in", "robotics", "robotics", "AI"]
 difficulty: intermediate
 estimated_reading_time_minutes: 30
 ---

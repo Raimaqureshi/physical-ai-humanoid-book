@@ -27,8 +27,8 @@ def create_qdrant_collection(client: QdrantClient):
         client.create_collection(
             collection_name=COLLECTION_NAME,
             vectors_config=models.VectorParams(size=VECTOR_SIZE, distance=DISTANCE_METRIC),
-            # You might want to add payload_mre_config for filtering on metadata
-            # payload_mre_config=models.PayloadMre(enable=True)
+            # You might want to add payload_schema for filtering on metadata
+            # payload_schema=models.PayloadSchemaType.KEYWORD
         )
         print(f"Created Qdrant collection: {COLLECTION_NAME}")
     else:

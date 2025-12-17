@@ -1,3 +1,9 @@
+speckit_team:
+  name: Speckit AI Team
+  title: Creators of Physical AI & Humanoid Robotics Textbook
+  url: https://speckit-ai.github.io/speckit/
+  image_url: https://github.com/speckit-ai.png
+
 endi:
   name: Endilie Yacop Sucipto
   title: Maintainer of Docusaurus

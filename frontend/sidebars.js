@@ -1,0 +1,94 @@
+const sidebars = {
+  "docs": [
+    {
+      "type": "category",
+      "label": "ROS 2 as the Robotic Nervous System",
+      "items": [
+        {
+          "type": "doc",
+          "id": "module1-ros-nervous-system/module1-ros-nervous-system/module1-ros-nervous-system-chapter1"
+        },
+        {
+          "type": "doc",
+          "id": "module1-ros-nervous-system/module1-ros-nervous-system/module1-ros-nervous-system-chapter2"
+        },
+        {
+          "type": "doc",
+          "id": "module1-ros-nervous-system/module1-ros-nervous-system/module1-ros-nervous-system-chapter3"
+        },
+        {
+          "type": "doc",
+          "id": "module1-ros-nervous-system/module1-ros-nervous-system/module1-ros-nervous-system-chapter4"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Gazebo & Unity as the Digital Twin",
+      "items": [
+        {
+          "type": "doc",
+          "id": "module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin-chapter1"
+        },
+        {
+          "type": "doc",
+          "id": "module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin-chapter2"
+        },
+        {
+          "type": "doc",
+          "id": "module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin-chapter3"
+        },
+        {
+          "type": "doc",
+          "id": "module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin-chapter4"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "NVIDIA Isaac as the AI-Robot Brain",
+      "items": [
+        {
+          "type": "doc",
+          "id": "module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain-chapter1"
+        },
+        {
+          "type": "doc",
+          "id": "module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain-chapter2"
+        },
+        {
+          "type": "doc",
+          "id": "module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain-chapter3"
+        },
+        {
+          "type": "doc",
+          "id": "module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain-chapter4"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Vision-Language-Action for Humanoid Autonomy",
+      "items": [
+        {
+          "type": "doc",
+          "id": "module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy-chapter1"
+        },
+        {
+          "type": "doc",
+          "id": "module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy-chapter2"
+        },
+        {
+          "type": "doc",
+          "id": "module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy-chapter3"
+        },
+        {
+          "type": "doc",
+          "id": "module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy-chapter4"
+        }
+      ]
+    }
+  ]
+};
+
+module.exports = sidebars;

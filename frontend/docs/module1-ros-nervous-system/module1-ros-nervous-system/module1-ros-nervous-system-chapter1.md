@@ -1,11 +1,11 @@
 ---
 id: module1-ros-nervous-system-chapter1
-title: ROS 2 Fundamentals: The Robotic Nervous System
+title: "ROS 2 Fundamentals: The Robotic Nervous System"
 module_id: module1-ros-nervous-system
 learning_objectives:
-  - Understand the core concepts of ROS 2 Fundamentals: The Robotic Nervous System.
-  - Identify key components and their functions related to ROS 2 Fundamentals: The Robotic Nervous System.
-keywords: [ros, 2, fundamentals:, the, robotic, nervous, system, robotics, AI]
+  - "Understand the core concepts of ROS 2 Fundamentals: The Robotic Nervous System."
+  - "Identify key components and their functions related to ROS 2 Fundamentals: The Robotic Nervous System."
+keywords: ["ros", "2", "fundamentals", "the", "robotic", "nervous", "system", "robotics", "AI"]
 difficulty: intermediate
 estimated_reading_time_minutes: 30
 ---

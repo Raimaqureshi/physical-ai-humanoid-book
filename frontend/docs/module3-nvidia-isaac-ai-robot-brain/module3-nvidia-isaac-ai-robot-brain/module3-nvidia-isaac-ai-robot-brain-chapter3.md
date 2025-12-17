@@ -1,11 +1,11 @@
 ---
 id: module3-nvidia-isaac-ai-robot-brain-chapter3
-title: Humanoid Manipulation with Isaac Gym & Isaac Sim
+title: "Humanoid Manipulation with Isaac Gym & Isaac Sim"
 module_id: module3-nvidia-isaac-ai-robot-brain
 learning_objectives:
-  - Understand the core concepts of Humanoid Manipulation with Isaac Gym & Isaac Sim.
-  - Identify key components and their functions related to Humanoid Manipulation with Isaac Gym & Isaac Sim.
-keywords: [humanoid, manipulation, with, isaac, gym, &, isaac, sim, robotics, AI]
+  - "Understand the core concepts of Humanoid Manipulation with Isaac Gym & Isaac Sim."
+  - "Identify key components and their functions related to Humanoid Manipulation with Isaac Gym & Isaac Sim."
+keywords: ["humanoid", "manipulation", "with", "isaac", "gym", "&", "isaac", "sim", "robotics", "AI"]
 difficulty: intermediate
 estimated_reading_time_minutes: 30
 ---

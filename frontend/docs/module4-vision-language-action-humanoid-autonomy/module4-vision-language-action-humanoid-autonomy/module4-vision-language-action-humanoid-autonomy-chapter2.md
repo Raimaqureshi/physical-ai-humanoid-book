@@ -1,11 +1,11 @@
 ---
 id: module4-vision-language-action-humanoid-autonomy-chapter2
-title: Perception for Humanoids: Object & Scene Understanding
+title: "Perception for Humanoids: Object & Scene Understanding"
 module_id: module4-vision-language-action-humanoid-autonomy
 learning_objectives:
-  - Understand the core concepts of Perception for Humanoids: Object & Scene Understanding.
-  - Identify key components and their functions related to Perception for Humanoids: Object & Scene Understanding.
-keywords: [perception, for, humanoids:, object, &, scene, understanding, robotics, AI]
+  - "Understand the core concepts of Perception for Humanoids: Object & Scene Understanding."
+  - "Identify key components and their functions related to Perception for Humanoids: Object & Scene Understanding."
+keywords: ["perception", "for", "humanoids", "object", "&", "scene", "understanding", "robotics", "AI"]
 difficulty: intermediate
 estimated_reading_time_minutes: 30
 ---

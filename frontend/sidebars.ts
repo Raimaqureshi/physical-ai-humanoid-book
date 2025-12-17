@@ -12,19 +12,19 @@ const sidebars: SidebarsConfig = {
       "items": [
         {
           "type": "doc",
-          "id": "module1-ros-nervous-system-chapter1"
+          "id": "module1-ros-nervous-system/module1-ros-nervous-system/module1-ros-nervous-system-chapter1"
         },
         {
           "type": "doc",
-          "id": "module1-ros-nervous-system-chapter2"
+          "id": "module1-ros-nervous-system/module1-ros-nervous-system/module1-ros-nervous-system-chapter2"
         },
         {
           "type": "doc",
-          "id": "module1-ros-nervous-system-chapter3"
+          "id": "module1-ros-nervous-system/module1-ros-nervous-system/module1-ros-nervous-system-chapter3"
         },
         {
           "type": "doc",
-          "id": "module1-ros-nervous-system-chapter4"
+          "id": "module1-ros-nervous-system/module1-ros-nervous-system/module1-ros-nervous-system-chapter4"
         }
       ]
     },
@@ -38,19 +38,19 @@ const sidebars: SidebarsConfig = {
       "items": [
         {
           "type": "doc",
-          "id": "module2-gazebo-unity-digital-twin-chapter1"
+          "id": "module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin-chapter1"
         },
         {
           "type": "doc",
-          "id": "module2-gazebo-unity-digital-twin-chapter2"
+          "id": "module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin-chapter2"
         },
         {
           "type": "doc",
-          "id": "module2-gazebo-unity-digital-twin-chapter3"
+          "id": "module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin-chapter3"
         },
         {
           "type": "doc",
-          "id": "module2-gazebo-unity-digital-twin-chapter4"
+          "id": "module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin/module2-gazebo-unity-digital-twin-chapter4"
         }
       ]
     },
@@ -64,19 +64,19 @@ const sidebars: SidebarsConfig = {
       "items": [
         {
           "type": "doc",
-          "id": "module3-nvidia-isaac-ai-robot-brain-chapter1"
+          "id": "module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain-chapter1"
         },
         {
           "type": "doc",
-          "id": "module3-nvidia-isaac-ai-robot-brain-chapter2"
+          "id": "module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain-chapter2"
         },
         {
           "type": "doc",
-          "id": "module3-nvidia-isaac-ai-robot-brain-chapter3"
+          "id": "module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain-chapter3"
         },
         {
           "type": "doc",
-          "id": "module3-nvidia-isaac-ai-robot-brain-chapter4"
+          "id": "module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain/module3-nvidia-isaac-ai-robot-brain-chapter4"
         }
       ]
     },
@@ -90,19 +90,19 @@ const sidebars: SidebarsConfig = {
       "items": [
         {
           "type": "doc",
-          "id": "module4-vision-language-action-humanoid-autonomy-chapter1"
+          "id": "module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy-chapter1"
         },
         {
           "type": "doc",
-          "id": "module4-vision-language-action-humanoid-autonomy-chapter2"
+          "id": "module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy-chapter2"
         },
         {
           "type": "doc",
-          "id": "module4-vision-language-action-humanoid-autonomy-chapter3"
+          "id": "module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy-chapter3"
         },
         {
           "type": "doc",
-          "id": "module4-vision-language-action-humanoid-autonomy-chapter4"
+          "id": "module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy/module4-vision-language-action-humanoid-autonomy-chapter4"
         }
       ]
     }

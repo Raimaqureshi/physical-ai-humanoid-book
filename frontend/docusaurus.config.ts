@@ -40,8 +40,8 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'docs',
+          type: 'doc',
+          docId: 'module1-ros-nervous-system/module1-ros-nervous-system/module1-ros-nervous-system-chapter1',
           position: 'left',
           label: 'Textbook',
         },
@@ -61,7 +61,7 @@ const config: Config = {
           items: [
             {
               label: 'Textbook',
-              to: '/docs/module1-ros-nervous-system-chapter1',
+              to: '/docs/module1-ros-nervous-system/module1-ros-nervous-system/module1-ros-nervous-system-chapter1',
             },
           ],
         },
@@ -97,10 +97,6 @@ const config: Config = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics. Built with Docusaurus.`,
-    },
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
     },
   },
 };

@@ -1,11 +1,11 @@
 ---
 id: module2-gazebo-unity-digital-twin-chapter3
-title: Unity for Robotics: Advanced Visualization & Physics
+title: "Unity for Robotics: Advanced Visualization & Physics"
 module_id: module2-gazebo-unity-digital-twin
 learning_objectives:
-  - Understand the core concepts of Unity for Robotics: Advanced Visualization & Physics.
-  - Identify key components and their functions related to Unity for Robotics: Advanced Visualization & Physics.
-keywords: [unity, for, robotics:, advanced, visualization, &, physics, robotics, AI]
+  - "Understand the core concepts of Unity for Robotics: Advanced Visualization & Physics."
+  - "Identify key components and their functions related to Unity for Robotics: Advanced Visualization & Physics."
+keywords: ["unity", "for", "robotics", "advanced", "visualization", "&", "physics", "robotics", "AI"]
 difficulty: intermediate
 estimated_reading_time_minutes: 30
 ---

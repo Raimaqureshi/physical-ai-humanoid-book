@@ -1,11 +1,11 @@
 ---
 id: module3-nvidia-isaac-ai-robot-brain-chapter2
-title: AI Navigation & Perception with Isaac ROS
+title: "AI Navigation & Perception with Isaac ROS"
 module_id: module3-nvidia-isaac-ai-robot-brain
 learning_objectives:
-  - Understand the core concepts of AI Navigation & Perception with Isaac ROS.
-  - Identify key components and their functions related to AI Navigation & Perception with Isaac ROS.
-keywords: [ai, navigation, &, perception, with, isaac, ros, robotics, AI]
+  - "Understand the core concepts of AI Navigation & Perception with Isaac ROS."
+  - "Identify key components and their functions related to AI Navigation & Perception with Isaac ROS."
+keywords: ["ai", "navigation", "&", "perception", "with", "isaac", "ros", "robotics", "AI"]
 difficulty: intermediate
 estimated_reading_time_minutes: 30
 ---

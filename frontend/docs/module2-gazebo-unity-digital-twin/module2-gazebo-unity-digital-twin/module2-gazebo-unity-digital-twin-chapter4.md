@@ -1,11 +1,11 @@
 ---
 id: module2-gazebo-unity-digital-twin-chapter4
-title: Humanoid Simulation & Testing with Digital Twins
+title: "Humanoid Simulation & Testing with Digital Twins"
 module_id: module2-gazebo-unity-digital-twin
 learning_objectives:
-  - Understand the core concepts of Humanoid Simulation & Testing with Digital Twins.
-  - Identify key components and their functions related to Humanoid Simulation & Testing with Digital Twins.
-keywords: [humanoid, simulation, &, testing, with, digital, twins, robotics, AI]
+  - "Understand the core concepts of Humanoid Simulation & Testing with Digital Twins."
+  - "Identify key components and their functions related to Humanoid Simulation & Testing with Digital Twins."
+keywords: ["humanoid", "simulation", "&", "testing", "with", "digital", "twins", "robotics", "AI"]
 difficulty: intermediate
 estimated_reading_time_minutes: 30
 ---
