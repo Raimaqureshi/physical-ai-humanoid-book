@@ -1,0 +1,175 @@
+2025-12-16T21:21:20.584Z [DEBUG] Watching for changes in setting files C:\Users\HASSAN~1\AppData\Local\Temp\claude-settings-94b51b2e-e0da-4f93-91ea-af030a241eee.json...
+2025-12-16T21:21:20.593Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080593
+2025-12-16T21:21:20.593Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:20.595Z [DEBUG] Temp file written successfully, size: 275 bytes
+2025-12-16T21:21:20.596Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:20.596Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080593 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:20.596Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:20.630Z [DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+2025-12-16T21:21:20.647Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2025-12-16T21:21:20.647Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2025-12-16T21:21:20.647Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2025-12-16T21:21:20.655Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080655
+2025-12-16T21:21:20.655Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:20.658Z [DEBUG] Temp file written successfully, size: 312 bytes
+2025-12-16T21:21:20.658Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:20.658Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080655 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:20.659Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:20.664Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080664
+2025-12-16T21:21:20.664Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:20.666Z [DEBUG] Temp file written successfully, size: 347 bytes
+2025-12-16T21:21:20.666Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:20.666Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080664 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:20.667Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:20.674Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080674
+2025-12-16T21:21:20.674Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:20.676Z [DEBUG] Temp file written successfully, size: 384 bytes
+2025-12-16T21:21:20.676Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:20.676Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080674 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:20.677Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:20.678Z [DEBUG] LSP server manager initialized successfully
+2025-12-16T21:21:20.679Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2025-12-16T21:21:20.697Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080697
+2025-12-16T21:21:20.698Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:20.700Z [DEBUG] Temp file written successfully, size: 466 bytes
+2025-12-16T21:21:20.700Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:20.700Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080697 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:20.700Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:20.701Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2025-12-16T21:21:20.720Z [DEBUG] Loading skills from directories: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=C:\Users\HASSAN COMPUTER\.claude\skills, project=[]
+2025-12-16T21:21:20.737Z [DEBUG] installed_plugins.json doesn't exist, returning empty V2 object
+2025-12-16T21:21:20.790Z [DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+2025-12-16T21:21:20.791Z [DEBUG] Looking for shell config file: C:\Users\HASSAN COMPUTER\.bashrc
+2025-12-16T21:21:20.791Z [DEBUG] Shell config file not found: C:\Users\HASSAN COMPUTER\.bashrc, creating snapshot with Claude Code defaults only
+2025-12-16T21:21:20.791Z [DEBUG] Snapshots directory: C:\Users\HASSAN COMPUTER\.claude\shell-snapshots
+2025-12-16T21:21:20.810Z [DEBUG] Creating snapshot at: C:\Users\HASSAN COMPUTER\.claude\shell-snapshots\snapshot-bash-1765920080791-vqx8cd.sh
+2025-12-16T21:21:20.810Z [DEBUG] Shell binary exists: true
+2025-12-16T21:21:20.810Z [DEBUG] Execution timeout: 10000ms
+2025-12-16T21:21:20.820Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude\todos\c0300f86-e604-4783-8393-86381b75b6d3-agent-c0300f86-e604-4783-8393-86381b75b6d3.json.tmp.11704.1765920080820
+2025-12-16T21:21:20.823Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-12-16T21:21:20.823Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude\todos\c0300f86-e604-4783-8393-86381b75b6d3-agent-c0300f86-e604-4783-8393-86381b75b6d3.json.tmp.11704.1765920080820 to C:\Users\HASSAN COMPUTER\.claude\todos\c0300f86-e604-4783-8393-86381b75b6d3-agent-c0300f86-e604-4783-8393-86381b75b6d3.json
+2025-12-16T21:21:20.823Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude\todos\c0300f86-e604-4783-8393-86381b75b6d3-agent-c0300f86-e604-4783-8393-86381b75b6d3.json written atomically
+2025-12-16T21:21:20.903Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2025-12-16T21:21:20.903Z [DEBUG] Total plugin skills loaded: 0
+2025-12-16T21:21:20.903Z [DEBUG] Total plugin commands loaded: 0
+2025-12-16T21:21:20.903Z [DEBUG] Registered 0 hooks from 0 plugins
+2025-12-16T21:21:20.905Z [DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, duplicates removed: 0)
+2025-12-16T21:21:20.906Z [DEBUG] getSkills returning: 0 skill dir commands, 0 plugin skills
+2025-12-16T21:21:20.908Z [DEBUG] Total plugin agents loaded: 0
+2025-12-16T21:21:20.911Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080911
+2025-12-16T21:21:20.911Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:20.913Z [DEBUG] Temp file written successfully, size: 510 bytes
+2025-12-16T21:21:20.914Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:20.914Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080911 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:20.914Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:20.918Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080918
+2025-12-16T21:21:20.919Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:20.922Z [DEBUG] Temp file written successfully, size: 540 bytes
+2025-12-16T21:21:20.922Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:20.922Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920080918 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:20.922Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:20.974Z [DEBUG] Git remote URL: null
+2025-12-16T21:21:20.974Z [DEBUG] No git remote URL found
+2025-12-16T21:21:20.974Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2025-12-16T21:21:21.036Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920081036
+2025-12-16T21:21:21.036Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:21.038Z [DEBUG] Temp file written successfully, size: 565 bytes
+2025-12-16T21:21:21.038Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:21.038Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920081036 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:21.039Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:21.410Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920081410
+2025-12-16T21:21:21.411Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:21.413Z [DEBUG] Temp file written successfully, size: 48934 bytes
+2025-12-16T21:21:21.413Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:21.413Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920081410 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:21.414Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:22.009Z [DEBUG] Shell snapshot created successfully (352 bytes)
+2025-12-16T21:21:23.494Z [DEBUG] [SLOW OPERATION DETECTED] fs.statSync (13.1ms)
+2025-12-16T21:21:23.657Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2025-12-16T21:21:23.658Z [DEBUG] [ColorDiff] Not in bundled mode, using JS fallback
+2025-12-16T21:21:23.666Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920083666
+2025-12-16T21:21:23.666Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:23.670Z [DEBUG] Temp file written successfully, size: 48934 bytes
+2025-12-16T21:21:23.670Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:23.670Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920083666 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:23.671Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:23.696Z [DEBUG] Skipping SessionStart:startup hook execution - workspace trust not accepted
+2025-12-16T21:21:23.864Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920083864
+2025-12-16T21:21:23.864Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:23.867Z [DEBUG] Temp file written successfully, size: 48970 bytes
+2025-12-16T21:21:23.868Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:23.868Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920083864 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:23.869Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:23.875Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920083875
+2025-12-16T21:21:23.875Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:23.877Z [DEBUG] Temp file written successfully, size: 49373 bytes
+2025-12-16T21:21:23.877Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:23.877Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920083875 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:23.878Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:23.890Z [DEBUG] performStartupChecks called
+2025-12-16T21:21:23.891Z [DEBUG] Trust not accepted for current directory - skipping plugin installations
+2025-12-16T21:21:23.908Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920083908
+2025-12-16T21:21:23.909Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:23.911Z [DEBUG] Temp file written successfully, size: 49408 bytes
+2025-12-16T21:21:23.911Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:23.911Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920083908 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:23.911Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:23.915Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920083915
+2025-12-16T21:21:23.915Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:23.917Z [DEBUG] Temp file written successfully, size: 49516 bytes
+2025-12-16T21:21:23.917Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:23.917Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920083915 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:23.919Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:23.923Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920083923
+2025-12-16T21:21:23.923Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:23.925Z [DEBUG] Temp file written successfully, size: 49564 bytes
+2025-12-16T21:21:23.925Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:23.925Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920083923 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:23.926Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:23.926Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-12-16T21:21:23.932Z [DEBUG] Attempting to auto-install official marketplace
+2025-12-16T21:21:24.015Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2025-12-16T21:21:24.023Z [DEBUG] Skipping SubagentStart:Explore hook execution - workspace trust not accepted
+2025-12-16T21:21:24.046Z [DEBUG] Skipping SubagentStart:Plan hook execution - workspace trust not accepted
+2025-12-16T21:21:24.111Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920084111
+2025-12-16T21:21:24.111Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:24.113Z [DEBUG] Temp file written successfully, size: 49745 bytes
+2025-12-16T21:21:24.113Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:24.113Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920084111 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:24.114Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:24.123Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920084123
+2025-12-16T21:21:24.123Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:24.125Z [DEBUG] Temp file written successfully, size: 49745 bytes
+2025-12-16T21:21:24.126Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:24.126Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920084123 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:24.126Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:24.186Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920084186
+2025-12-16T21:21:24.186Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:24.188Z [DEBUG] Temp file written successfully, size: 49775 bytes
+2025-12-16T21:21:24.188Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:24.188Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920084186 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:24.189Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:24.200Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920084200
+2025-12-16T21:21:24.201Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:24.203Z [DEBUG] Temp file written successfully, size: 49822 bytes
+2025-12-16T21:21:24.204Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:24.204Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920084200 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:24.204Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:25.503Z [INFO] SSH not configured for GitHub, using HTTPS for anthropics/claude-plugins-official
+2025-12-16T21:21:26.359Z [DEBUG] Stream started - received first chunk
+2025-12-16T21:21:26.708Z [DEBUG] Stream started - received first chunk
+2025-12-16T21:21:27.410Z [DEBUG] Skipping SubagentStop hook execution - workspace trust not accepted
+2025-12-16T21:21:28.195Z [DEBUG] Added marketplace source: claude-plugins-official
+2025-12-16T21:21:28.195Z [DEBUG] Successfully auto-installed official marketplace
+2025-12-16T21:21:28.199Z [DEBUG] Writing to temp file: C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920088199
+2025-12-16T21:21:28.199Z [DEBUG] Preserving file permissions: 100666
+2025-12-16T21:21:28.201Z [DEBUG] Temp file written successfully, size: 49917 bytes
+2025-12-16T21:21:28.201Z [DEBUG] Applied original permissions to temp file
+2025-12-16T21:21:28.201Z [DEBUG] Renaming C:\Users\HASSAN COMPUTER\.claude.json.tmp.11704.1765920088199 to C:\Users\HASSAN COMPUTER\.claude.json
+2025-12-16T21:21:28.202Z [DEBUG] File C:\Users\HASSAN COMPUTER\.claude.json written atomically
+2025-12-16T21:21:28.202Z [DEBUG] Showing marketplace installation success notification
+2025-12-16T21:21:30.362Z [DEBUG] Skipping SubagentStop hook execution - workspace trust not accepted
+2025-12-16T21:21:33.125Z [DEBUG] [SLOW OPERATION DETECTED] fs.readdirSync (16.7ms)
+2025-12-16T21:21:33.470Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global
+2025-12-16T21:21:36.468Z [DEBUG] [SLOW OPERATION DETECTED] fs.existsSync (15.3ms)
+2025-12-16T21:21:40.951Z [DEBUG] AutoUpdaterWrapper: Installation type: npm-global

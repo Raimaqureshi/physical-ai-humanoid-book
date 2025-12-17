@@ -1,50 +1,55 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: None (initial version) -> 0.1.0
+List of modified principles: All (new)
+Added sections: Guiding Personas & Alignment, Content Integrity
+Removed sections: None
+Templates requiring updates:
+  - .specify/templates/plan-template.md: ⚠ pending
+  - .specify/templates/spec-template.md: ⚠ pending
+  - .specify/templates/tasks-template.md: ⚠ pending
+  - .specify/templates/commands/*.md: ⚠ pending
+  - README.md: ⚠ pending
+Follow-up TODOs: None
+-->
+# Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Modular, Structured, University-Grade Content
+The textbook MUST be modular, structured, and adhere to university-grade standards for academic rigor and presentation.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Course Document Adherence
+Content MUST strictly follow the provided course document, ensuring complete and accurate coverage of specified topics.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Consistent Module Structure
+Each module MUST contain exactly four (4) chapters to maintain a predictable and manageable learning pace.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Comprehensive Chapter Content
+Each chapter MUST include: Concept explanation, Real-world robotics examples, ROS 2 / Gazebo / Isaac references, Clearly defined learning objectives, and Practical exercises.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. AI-Native Features & Accessibility
+The system MUST support:
+*   AI-powered Q&A via Retrieval-Augmented Generation (RAG)
+*   Chapter-level personalization for diverse learning paths
+*   Urdu translation for broader accessibility
+*   Content explanation adaptable to user background and prior knowledge.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Guiding Personas & Alignment
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+**Guiding Personas:** Content and design MUST reflect the perspectives of:
+*   A robotics professor (academic rigor, pedagogical soundness)
+*   An AI startup founder (practical application, innovation, scalability)
+*   A curriculum designer (learning flow, clarity, assessment)
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+**Strict Alignment:** All content MUST align with and emphasize: Physical AI, Humanoid Robotics, ROS 2, Gazebo, NVIDIA Isaac, and Vision-Language-Action.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Content Integrity
+
+Content generation MUST NEVER hallucinate or introduce information outside the provided course scope.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+Constitution supersedes all other project practices. Amendments require documentation, approval, and a migration plan. All content changes MUST verify compliance with these principles. Complexity in implementation MUST be justified by pedagogical or technical necessity. Version bumping will follow semantic versioning rules: MAJOR for incompatible changes, MINOR for new principles/sections, PATCH for clarifications.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 0.1.0 | **Ratified**: 2025-12-17 | **Last Amended**: 2025-12-17
