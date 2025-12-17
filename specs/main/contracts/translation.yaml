@@ -1,0 +1,61 @@
+openapi: 3.0.0
+info:
+  title: Translation API
+  version: 1.0.0
+paths:
+  /chapters/{chapter_id}/translate:
+    post:
+      summary: Request translated chapter content to Urdu
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: chapter_id
+          schema:
+            type: string
+            format: uuid
+          required: true
+          description: ID of the chapter
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                target_language:
+                  type: string
+                  enum: [ "ur" ] # Only Urdu for now
+                  default: "ur"
+              required:
+                - target_language
+      responses:
+        '200':
+          description: Translated chapter content
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TranslatedChapter'
+        '401':
+          description: Unauthorized
+        '404':
+          description: Chapter not found
+components:
+  schemas:
+    TranslatedChapter:
+      type: object
+      properties:
+        chapter_id:
+          type: string
+          format: uuid
+        title:
+          type: string
+        translated_content:
+          type: string
+        language:
+          type: string
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

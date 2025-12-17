@@ -1,0 +1,67 @@
+openapi: 3.0.0
+info:
+  title: Conversational AI API
+  version: 1.0.0
+paths:
+  /ai/query:
+    post:
+      summary: Send a query to the conversational AI
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query_text:
+                  type: string
+                  description: The user's question
+                context_type:
+                  type: string
+                  enum: ["entire_book", "chapter_specific", "selected_text"]
+                  description: The scope of the query
+                context_reference:
+                  type: string
+                  nullable: true
+                  description: Reference to specific content if context_type is not "entire_book" (e.g., chapter_id, selected_text identifier)
+              required:
+                - query_text
+                - context_type
+      responses:
+        '200':
+          description: AI response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AIResponse'
+        '400':
+          description: Invalid input or query
+        '401':
+          description: Unauthorized
+components:
+  schemas:
+    AIResponse:
+      type: object
+      properties:
+        response_text:
+          type: string
+        source_references:
+          type: array
+          items:
+            type: string
+    QueryContext:
+      type: object
+      properties:
+        type:
+          type: string
+          enum: ["entire_book", "chapter_specific", "selected_text"]
+        reference:
+          type: string
+          nullable: true
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
