@@ -14,27 +14,27 @@ The project will be developed iteratively following the outlined phases, priorit
 
 **Goal**: Establish the basic project structure and initialize core components.
 
--   [ ] T001 Initialize Docusaurus project in `frontend/`
--   [ ] T002 Initialize FastAPI project in `backend/`
--   [ ] T003 Create `backend/src/models/` directory
--   [ ] T004 Create `backend/src/services/` directory
--   [ ] T005 Create `backend/src/api/` directory
--   [ ] T006 Create `backend/tests/` directory
--   [ ] T007 Create `frontend/src/components/` directory
--   [ ] T008 Create `frontend/src/pages/` directory
--   [ ] T009 Create `frontend/src/services/` directory
--   [ ] T010 Create `frontend/tests/` directory
+- [x] T001 Initialize Docusaurus project in `frontend/`
+- [x] T002 Initialize FastAPI project in `backend/`
+- [x] T003 Create `backend/src/models/` directory
+- [x] T004 Create `backend/src/services/` directory
+- [x] T005 Create `backend/src/api/` directory
+- [x] T006 Create `backend/tests/` directory
+- [x] T007 Create `frontend/src/components/` directory
+- [x] T008 Create `frontend/src/pages/` directory
+- [x] T009 Create `frontend/src/services/` directory
+- [x] T010 Create `frontend/tests/` directory
 
 ## Phase: Foundational (Blocking Prerequisites)
 
 **Goal**: Configure essential infrastructure and environment settings required across the application.
 
--   [ ] T011 Set up Python virtual environment for `backend/`
--   [ ] T012 Configure `backend/requirements.txt` for FastAPI and other core Python dependencies
--   [ ] T013 Set up Node.js environment for `frontend/`
--   [ ] T014 Configure `frontend/package.json` for Docusaurus and React dependencies
--   [ ] T015 Define and document `.env.example` for `backend/`
--   [ ] T016 Define and document `.env.example` for `frontend/` (if needed)
+- [x] T011 Set up Python virtual environment for `backend/`
+- [x] T012 Configure `backend/requirements.txt` for FastAPI and other core Python dependencies
+- [x] T013 Set up Node.js environment for `frontend/`
+- [x] T014 Configure `frontend/package.json` for Docusaurus and React dependencies
+- [x] T015 Define and document `.env.example` for `backend/`
+- [x] T016 Define and document `.env.example` for `frontend/` (if needed)
 -   [ ] T017 Initial commit of project boilerplate
 
 ## Phase: Book Content Generation & Structure (User's Phase 1)
