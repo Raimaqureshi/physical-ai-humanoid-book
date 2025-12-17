@@ -13,7 +13,7 @@ A student or researcher wants to access the "Physical AI & Humanoid Robotics" te
 
 **Why this priority**: This is the core functionality - accessing the book content is fundamental to the platform's purpose.
 
-**Independent Test**: Can be fully tested by browsing the published Docusaurus site and verifying all modules and chapters are accessible and correctly structured.
+**Independent Test**: Can be fully tested by browsing the published site and verifying all modules and chapters are accessible and correctly structured.
 
 **Acceptance Scenarios**:
 
@@ -22,18 +22,18 @@ A student or researcher wants to access the "Physical AI & Humanoid Robotics" te
 
 ---
 
-### User Story 2 - Interacting with the RAG Chatbot (Priority: P1)
+### User Story 2 - Interacting with the Conversational AI (Priority: P1)
 
-A user wants to ask questions about the textbook content and receive accurate answers from the RAG chatbot, either based on the entire book or a selected text.
+A user wants to ask questions about the textbook content and receive accurate answers from the conversational AI, either based on the entire book or a selected text.
 
 **Why this priority**: This is a mandatory and central AI-native feature, providing interactive learning support.
 
-**Independent Test**: Can be fully tested by asking questions and verifying the chatbot's responses are accurate, contextual, and sourced only from the textbook content.
+**Independent Test**: Can be fully tested by asking questions and verifying the AI's responses are accurate, contextual, and sourced only from the textbook content.
 
 **Acceptance Scenarios**:
 
-1.  **Given** a user is viewing textbook content, **When** they ask a question via the embedded chatbot, **Then** the chatbot provides a relevant answer based *only* on the book's content.
-2.  **Given** a user selects a specific text snippet in the book, **When** they ask the chatbot a question related to that snippet, **Then** the chatbot's answer is localized to the selected text.
+1.  **Given** a user is viewing textbook content, **When** they ask a question via the embedded conversational AI interface, **Then** the AI provides a relevant answer based *only* on the book's content.
+2.  **Given** a user selects a specific text snippet in the book, **When** they ask the conversational AI a question related to that snippet, **Then** the AI's answer is localized to the selected text.
 
 ---
 
@@ -68,8 +68,8 @@ A user wants to personalize the content of a chapter based on their background a
 
 ### Edge Cases
 
--   **Chatbot Scope**: What happens when the chatbot receives a question outside the scope of the textbook content? The chatbot MUST respond that it cannot answer questions irrelevant to the book.
--   **API Errors**: How does the system handle network errors during API calls (e.g., chatbot, authentication, personalization)? The system SHOULD provide graceful degradation (e.g., retries, informative error messages) without crashing.
+-   **Conversational AI Scope**: What happens when the conversational AI receives a question outside the scope of the textbook content? The conversational AI MUST respond that it cannot answer questions irrelevant to the book.
+-   **Service Errors**: How does the system handle network errors during API calls (e.g., conversational AI, authentication, personalization)? The system SHOULD provide graceful degradation (e.g., retries, informative error messages) without crashing.
 -   **Unauthorized Personalization**: What happens if a user tries to access personalized content without being authenticated or without providing background information? The system MUST prompt for login/signup/background information.
 -   **Translation Service Unavailability**: What happens if the Urdu translation service is unavailable? The system MUST fallback to the original language with an informative message.
 
@@ -77,44 +77,57 @@ A user wants to personalize the content of a chapter based on their background a
 
 ### Functional Requirements
 
--   **FR-001**: The platform MUST display the "Physical AI & Humanoid Robotics" textbook using Docusaurus.
+-   **FR-001**: The platform MUST enable the presentation of the "Physical AI & Humanoid Robotics" textbook content.
 -   **FR-002**: The textbook MUST be structured into 4 modules, each containing exactly 4 chapters.
 -   **FR-003**: Each chapter MUST present concept explanations, real-world robotics examples, ROS 2 / Gazebo / Isaac references, learning objectives, and practical exercises.
--   **FR-004**: The platform MUST include an embedded RAG chatbot UI within the Docusaurus frontend.
--   **FR-005**: The chatbot MUST answer questions exclusively from the textbook's content.
--   **FR-006**: The chatbot MUST support querying based on the entire book content.
--   **FR-007**: The chatbot MUST support querying based on user-selected text within a chapter.
+-   **FR-004**: The platform MUST include an embedded conversational AI interface for interacting with book content.
+-   **FR-005**: The conversational AI MUST answer questions exclusively from the textbook's content.
+-   **FR-006**: The conversational AI MUST support querying based on the entire book content.
+-   **FR-007**: The conversational AI MUST support querying based on user-selected text within a chapter.
 -   **FR-008**: The platform MUST provide user signup and signin functionality.
 -   **FR-009**: During signup, the system MUST ask for and store the user's software background.
 -   **FR-010**: During signup, the system MUST ask for and store the user's hardware/robotics background.
--   **FR-011**: Each chapter in the Docusaurus frontend MUST include a "Personalize content" button.
+-   **FR-011**: Each chapter in the user interface MUST include a "Personalize content" button.
 -   **FR-012**: Clicking "Personalize content" MUST adapt the displayed chapter content based on the user's stored background.
--   **FR-013**: Each chapter in the Docusaurus frontend MUST include a "Translate content to Urdu" button.
+-   **FR-013**: Each chapter in the user interface MUST include a "Translate content to Urdu" button.
 -   **FR-014**: Clicking "Translate content to Urdu" MUST display the chapter content in Urdu.
--   **FR-015**: The frontend MUST be built with Docusaurus and React.
--   **FR-016**: The backend MUST be built with FastAPI.
--   **FR-017**: The backend MUST implement a RAG pipeline for chatbot functionality.
--   **FR-018**: The backend MUST implement a vector ingestion pipeline for book content into Qdrant Cloud.
--   **FR-019**: The backend MUST expose APIs for authentication and personalization.
--   **FR-020**: User authentication and metadata MUST be managed using Neon Serverless Postgres.
--   **FR-021**: The RAG chatbot MUST utilize OpenAI Agents / ChatKit SDK.
--   **FR-022**: The textbook MUST be deployed on GitHub Pages.
+-   **FR-015**: The platform MUST provide a web-based user interface for accessing content and interacting with features.
+-   **FR-016**: The platform MUST provide backend services to support content delivery, AI interactions, authentication, and personalization.
+-   **FR-017**: The backend services MUST include a mechanism for providing conversational AI functionality based on book content.
+-   **FR-018**: The backend services MUST include a mechanism for processing and storing book content for AI interactions.
+-   **FR-019**: The backend services MUST expose interfaces for user authentication and personalization.
+-   **FR-020**: User authentication and metadata MUST be managed by a persistent data store.
+-   **FR-021**: The conversational AI functionality MUST leverage advanced AI models and tools.
+-   **FR-022**: The textbook platform MUST be accessible online via a web hosting solution.
+-   **FR-023**: The platform MUST integrate with a third-party authentication service to manage user signup and signin.
 
 ### Key Entities
 
 -   **User**: Represents an individual interacting with the platform. Key attributes include: Email, Hashed Password, Software Background (e.g., beginner, intermediate, expert), Hardware/Robotics Background (e.g., none, hobbyist, professional), Personalization Preferences.
 -   **Textbook Content (Book/Module/Chapter)**: The hierarchical structure of the educational material. Key attributes: Textual content, Learning Objectives, Real-world examples, ROS/Gazebo/Isaac references, Practical exercises, Metadata (Module ID, Chapter ID).
--   **Query**: A user's question posed to the chatbot. Key attributes: Question text, Context (entire book or selected text reference), User ID.
--   **Chatbot Response**: The answer provided by the RAG chatbot. Key attributes: Answer text, Source references from book content.
+-   **Query**: A user's question posed to the conversational AI. Key attributes: Question text, Context (entire book or selected text reference), User ID.
+-   **Conversational AI Response**: The answer provided by the conversational AI. Key attributes: Answer text, Source references from book content.
+
+## Assumptions
+
+-   The platform will leverage Docusaurus for the web-based user interface framework.
+-   The platform will utilize React for front-end development within the Docusaurus framework.
+-   Backend services will be developed using FastAPI.
+-   User authentication will integrate with better-auth.com as the third-party authentication service.
+-   A vector database, specifically Qdrant Cloud, will be used for storing book content embeddings for AI interactions.
+-   User and metadata storage will be handled by Neon Serverless Postgres.
+-   The conversational AI functionality will be implemented using OpenAI Agents / ChatKit SDK.
+-   The platform will be deployed and hosted on GitHub Pages.
+-   Third-party services (authentication, vector database, AI models) are assumed to be reliable and provide necessary APIs.
 
 ## Success Criteria
 
 ### Measurable Outcomes
 
--   **SC-001**: 100% of "Physical AI & Humanoid Robotics" textbook content (all modules and chapters) is accessible and rendered correctly via the Docusaurus frontend.
+-   **SC-001**: 100% of "Physical AI & Humanoid Robotics" textbook content (all modules and chapters) is accessible and rendered correctly via the web-based user interface.
 -   **SC-002**: Users can navigate between all modules and chapters seamlessly, with page load times under 2 seconds on typical broadband connections.
--   **SC-003**: 95% of user questions directed to the chatbot receive relevant and accurate answers sourced exclusively from the textbook content.
--   **SC-004**: Chatbot response time for typical queries is under 3 seconds.
+-   **SC-003**: 95% of user questions directed to the conversational AI receive relevant and accurate answers sourced exclusively from the textbook content.
+-   **SC-004**: Conversational AI response time for typical queries is under 3 seconds.
 -   **SC-005**: 100% of user signup and signin attempts are successful when valid credentials are provided.
 -   **SC-006**: 90% of users who attempt personalization report that the adjusted content feels more relevant to their background.
 -   **SC-007**: Urdu translation for all chapters can be generated and displayed within 5 seconds upon user request.
