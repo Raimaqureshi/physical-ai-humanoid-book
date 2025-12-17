@@ -35,76 +35,76 @@ The project will be developed iteratively following the outlined phases, priorit
 - [x] T014 Configure `frontend/package.json` for Docusaurus and React dependencies
 - [x] T015 Define and document `.env.example` for `backend/`
 - [x] T016 Define and document `.env.example` for `frontend/` (if needed)
--   [ ] T017 Initial commit of project boilerplate
+- [x] T017 Initial commit of project boilerplate
 
 ## Phase: Book Content Generation & Structure (User's Phase 1)
 
 **Goal**: Establish the foundational textbook content, its modular structure, and tools for management.
 
 -   [ ] T018 Define content ingestion strategy (e.g., Markdown conversion guidelines) in `docs/content_strategy.md`
--   [ ] T019 Develop script/tool for Docusaurus module/chapter structure generation in `scripts/generate_content_structure.py`
--   [ ] T020 Generate initial 4 modules and 16 chapter placeholder markdown files in `frontend/docs/`
--   [ ] T021 Define comprehensive metadata schema for chapters (learning objectives, examples, references, exercises) in `backend/src/models/content_metadata.py`
+- [x] T019 Develop script/tool for Docusaurus module/chapter structure generation in `scripts/generate_content_structure.py`
+- [x] T020 Generate initial 4 modules and 16 chapter placeholder markdown files in `frontend/docs/`
+- [x] T021 Define comprehensive metadata schema for chapters (learning objectives, examples, references, exercises) in `backend/src/models/content_metadata.py`
 -   [ ] T022 Populate sample content for one module (4 chapters) with rich metadata in `frontend/docs/sample_module/`
 
 ## Phase: Frontend Setup & Core UI (User's Phase 2) [US1]
 
 **Goal**: Set up the Docusaurus frontend, establish basic navigation, and integrate a placeholder for the conversational AI, enabling basic textbook access.
 
--   [ ] T023 Configure Docusaurus sidebar navigation for 4 modules, 4 chapters per module in `frontend/sidebars.ts`
--   [ ] T024 Configure Docusaurus routing and theme in `frontend/docusaurus.config.ts`
--   [ ] T025 Implement Docusaurus pages for displaying generated textbook content in `frontend/src/pages/`
--   [ ] T026 Implement core UI components for chapter display (e.g., handling metadata, exercises) in `frontend/src/components/ChapterDisplay.tsx`
--   [ ] T027 [P] Create placeholder UI element for conversational AI (floating button/sidebar) in `frontend/src/components/AIChatPlaceholder.tsx`
--   [ ] T028 Apply basic styling for clean documentation layout in `frontend/src/css/custom.css`
+- [x] T023 Configure Docusaurus sidebar navigation for 4 modules, 4 chapters per module in `frontend/sidebars.ts`
+- [x] T024 Configure Docusaurus routing and theme in `frontend/docusaurus.config.ts`
+- [x] T025 Implement Docusaurus pages for displaying generated textbook content in `frontend/src/pages/`
+- [x] T026 Implement core UI components for chapter display (e.g., handling metadata, exercises) in `frontend/src/components/ChapterDisplay.tsx`
+- [x] T027 [P] Create placeholder UI element for conversational AI (floating button/sidebar) in `frontend/src/components/AIChatPlaceholder.tsx`
+- [x] T028 Apply basic styling for clean documentation layout in `frontend/src/css/custom.css`
 -   [ ] T029 Implement frontend service to fetch textbook content from `backend/api/content` (initially mocked) in `frontend/src/services/content_service.ts`
 
 ## Phase: Backend Services & Conversational AI Integration (User's Phase 3) [US2]
 
 **Goal**: Develop the core backend services, implement the RAG pipeline, and integrate the conversational AI with the frontend, enabling interactive Q&A.
 
--   [ ] T030 [P] Implement `Content` models based on `data-model.md` in `backend/src/models/content.py`
--   [ ] T031 [P] Implement basic CRUD operations for `Content` in `backend/src/services/content_service.py`
--   [ ] T032 Configure Qdrant Cloud connection in `backend/src/config/qdrant.py`
--   [ ] T033 Develop vector ingestion script for textbook content to Qdrant in `backend/scripts/ingest_vectors.py`
--   [ ] T034 Implement RAG pipeline core logic (embedding creation, similarity search) in `backend/src/services/rag_service.py`
--   [ ] T035 Integrate OpenAI Agents / ChatKit SDK for conversational AI in `backend/src/services/ai_agent.py`
--   [ ] T036 Implement `/ai/query` endpoint based on `contracts/ai.yaml` in `backend/src/api/ai.py`
--   [ ] T037 [P] Implement `/books`, `/modules/{module_id}/chapters`, `/chapters/{chapter_id}` endpoints based on `contracts/content.yaml` in `backend/src/api/content.py`
--   [ ] T038 Connect frontend `AIChatPlaceholder` to `backend/ai/query` endpoint in `frontend/src/components/AIChat.tsx`
+- [x] T030 [P] Implement `Content` models based on `data-model.md` in `backend/src/models/content.py`
+- [x] T031 [P] Implement basic CRUD operations for `Content` in `backend/src/services/content_service.py`
+- [x] T032 Configure Qdrant Cloud connection in `backend/src/config/qdrant.py`
+- [x] T033 Develop vector ingestion script for textbook content to Qdrant in `backend/scripts/ingest_vectors.py`
+- [x] T034 Implement RAG pipeline core logic (embedding creation, similarity search) in `backend/src/services/rag_service.py`
+- [x] T035 Integrate OpenAI Agents / ChatKit SDK for conversational AI in `backend/src/services/ai_agent.py`
+- [x] T036 Implement `/ai/query` endpoint based on `contracts/ai.yaml` in `backend/src/api/ai.py`
+- [x] T037 [P] Implement `/books`, `/modules/{module_id}/chapters`, `/chapters/{chapter_id}` endpoints based on `contracts/content.yaml` in `backend/src/api/content.py`
+- [x] T038 Connect frontend `AIChatPlaceholder` to `backend/ai/query` endpoint in `frontend/src/components/AIChat.tsx`
 
 ## Phase: Authentication & Personalization Features (User's Phase 4) [US3, US4]
 
 **Goal**: Implement user authentication, personalized content delivery, and Urdu translation capabilities.
 
--   [ ] T039 [P] Implement `User` model based on `data-model.md` in `backend/src/models/user.py`
--   [ ] T040 [P] Implement basic user management (CRUD) in `backend/src/services/user_service.py`
--   [ ] T041 Integrate better-auth.com for external authentication in `backend/src/services/auth_external.py`
--   [ ] T042 Implement `/auth/signup`, `/auth/signin`, `/auth/me` endpoints based on `contracts/auth.yaml` in `backend/src/api/auth.py`
--   [ ] T043 Update signup logic to store `software_background` and `hardware_robotics_background` in `Neon Serverless Postgres` via `backend/src/services/user_service.py`
--   [ ] T044 Implement `personalization_logic` to adapt chapter content based on user background in `backend/src/services/personalization_service.py`
--   [ ] T045 Implement `/chapters/{chapter_id}/personalize` endpoint based on `contracts/personalization.yaml` in `backend/src/api/personalization.py`
--   [ ] T046 Implement `translation_logic` to provide Urdu translation of chapter content in `backend/src/services/translation_service.py`
--   [ ] T047 Implement `/chapters/{chapter_id}/translate` endpoint based on `contracts/translation.yaml` in `backend/src/api/translation.py`
--   [ ] T048 [P] Implement "Personalize content" button in `frontend/src/components/ChapterActions.tsx`
--   [ ] T049 Connect "Personalize content" button to `backend/personalization` API and update `ChapterDisplay.tsx`
--   [ ] T050 [P] Implement "Translate content to Urdu" button in `frontend/src/components/ChapterActions.tsx`
--   [ ] T051 Connect "Translate content to Urdu" button to `backend/translation` API and update `ChapterDisplay.tsx`
--   [ ] T052 Implement frontend authentication flow (login, signup, session management) in `frontend/src/services/auth_service.ts`
--   [ ] T053 Update `ChapterDisplay.tsx` to conditionally show personalization/translation based on user authentication status
+- [x] T039 [P] Implement `User` model based on `data-model.md` in `backend/src/models/user.py`
+- [x] T040 [P] Implement basic user management (CRUD) in `backend/src/services/user_service.py`
+- [x] T041 Integrate better-auth.com for external authentication in `backend/src/services/auth_external.py`
+- [x] T042 Implement `/auth/signup`, `/auth/signin`, `/auth/me` endpoints based on `contracts/auth.yaml` in `backend/src/api/auth.py`
+- [x] T043 Update signup logic to store `software_background` and `hardware_robotics_background` in `Neon Serverless Postgres` via `backend/src/services/user_service.py`
+- [x] T044 Implement `personalization_logic` to adapt chapter content based on user background in `backend/src/services/personalization_service.py`
+- [x] T045 Implement `/chapters/{chapter_id}/personalize` endpoint based on `contracts/personalization.yaml` in `backend/src/api/personalization.py`
+- [x] T046 Implement `translation_logic` to provide Urdu translation of chapter content in `backend/src/services/translation_service.py`
+- [x] T047 Implement `/chapters/{chapter_id}/translate` endpoint based on `contracts/translation.yaml` in `backend/src/api/translation.py`
+- [x] T048 [P] Implement "Personalize content" button in `frontend/src/components/ChapterActions.tsx`
+- [x] T049 Connect "Personalize content" button to `backend/personalization` API and update `ChapterDisplay.tsx`
+- [x] T050 [P] Implement "Translate content to Urdu" button in `frontend/src/components/ChapterActions.tsx`
+- [x] T051 Connect "Translate content to Urdu" button to `backend/translation` API and update `ChapterDisplay.tsx`
+- [x] T052 Implement frontend authentication flow (login, signup, session management) in `frontend/src/services/auth_service.ts`
+- [x] T053 Update `ChapterDisplay.tsx` to conditionally show personalization/translation based on user authentication status
 
 ## Phase: Deployment & Demo Preparation (User's Phase 5)
 
 **Goal**: Deploy the platform, conduct final testing, and prepare for presentation.
 
--   [ ] T054 Configure Docusaurus for GitHub Pages deployment in `frontend/docusaurus.config.ts`
--   [ ] T055 Set up CI/CD for frontend deployment to GitHub Pages (e.g., GitHub Actions workflow) in `.github/workflows/frontend_deploy.yml`
--   [ ] T056 Configure FastAPI backend for cloud deployment (e.g., Dockerfile, `Procfile`) in `backend/`
--   [ ] T057 Set up CI/CD for backend deployment to chosen cloud platform (e.g., Vercel, Render) in `.github/workflows/backend_deploy.yml`
--   [ ] T058 [P] Develop E2E tests using Playwright for core user flows (textbook access, AI query, auth) in `e2e_tests/`
--   [ ] T059 Execute performance tests against deployed platform and document results in `docs/performance_report.md`
--   [ ] T060 Prepare demo script highlighting key features and AI-native aspects in `docs/demo_script.md`
--   [ ] T061 Create presentation slides/materials in `docs/presentation/`
+- [x] T054 Configure Docusaurus for GitHub Pages deployment in `frontend/docusaurus.config.ts`
+- [x] T055 Set up CI/CD for frontend deployment to GitHub Pages (e.g., GitHub Actions workflow) in `.github/workflows/frontend_deploy.yml`
+- [x] T056 Configure FastAPI backend for cloud deployment (e.g., Dockerfile, `Procfile`) in `backend/`
+- [x] T057 Set up CI/CD for backend deployment to chosen cloud platform (e.g., Vercel, Render) in `.github/workflows/backend_deploy.yml`
+- [x] T058 [P] Develop E2E tests using Playwright for core user flows (textbook access, AI query, auth) in `e2e_tests/`
+- [x] T059 Execute performance tests against deployed platform and document results in `docs/performance_report.md`
+- [x] T060 Prepare demo script highlighting key features and AI-native aspects in `docs/demo_script.md`
+- [x] T061 Create presentation slides/materials in `docs/presentation/`
 
 ## Dependency Graph (User Story Completion Order)
 

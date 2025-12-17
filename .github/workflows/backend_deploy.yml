@@ -1,0 +1,40 @@
+# .github/workflows/backend_deploy.yml
+
+name: Deploy Backend to Cloud Platform
+
+on:
+  push:
+    branches:
+      - main # Trigger on pushes to the main branch
+    paths:
+      - 'backend/**' # Only run if changes are made in the backend directory
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9' # Use a Python version compatible with your FastAPI app
+
+      - name: Install dependencies
+        run: pip install -r backend/requirements.txt # Install backend Python dependencies
+
+      - name: Build Docker image (if using Docker-based deployment)
+        run: docker build -t speckit-ai/backend:latest ./backend
+        # if: <condition for docker-based platforms like Render, Railway>
+
+      - name: Deploy to Cloud Platform (Placeholder for Vercel/Render/etc.)
+        # This step will vary greatly depending on your chosen cloud provider.
+        # Examples:
+        # - Vercel CLI:
+        #   run: vercel deploy --prebuilt --token ${{ secrets.VERCEL_TOKEN }}
+        #   working-directory: ./backend # If Vercel project is in backend/
+        # - Render CLI:
+        #   run: render deploy --service-id ${{ secrets.RENDER_SERVICE_ID }} --api-key ${{ secrets.RENDER_API_KEY }}
+        # - Manual deployment or provider-specific GitHub Action
+        run: echo "Deployment to cloud platform configured here."
